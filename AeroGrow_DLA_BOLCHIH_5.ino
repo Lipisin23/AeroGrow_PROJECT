@@ -40,11 +40,6 @@ void build() {
   GP.LABEL("ThingSpeak API:", "label6", GP_GREEN_B, 0, true);
   GP.BREAK();
   GP.TEXT("ts_key", "API Key", lp.thingspeakAPIKey);
-  /*GP.BREAK();
-  GP.CHECK("puk");
-  GP.LABEL("GEWQ");
-  GP.BREAK(); 
-  GP.SWITCH("puk2");*/
   GP.SUBMIT("Сохранить");
   GP.FORM_END();
 
@@ -1425,3 +1420,4 @@ float getMineral() {
   
     return float(EC_value);
 }
+
